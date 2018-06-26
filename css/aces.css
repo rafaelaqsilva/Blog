@@ -1,0 +1,109 @@
+html{
+	font-size: 14px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+}
+ul, li {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}		
+.barra_superior{
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	background-color: #333;
+}
+.barra_superior a{
+	width: 100%;
+	height: 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.sup_direita{
+	width: 29%;
+	height: 100px;
+	display: inline-block;
+	float: right;
+}
+.topo{
+	width: 100%;
+	height: 150px;
+	padding-top:20px;
+	margin-bottom:10px;
+	background-color: #eee;
+}
+
+.esquerda{
+	width: 79%;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+.direita{
+	width: 19%;
+	height: 100px;
+	display: inline-block;
+	float: right;
+}
+
+#formulario{
+	padding: 5%;
+	width: 90%;
+	display: block;
+	min-height:500px;
+	background-color: #eee;
+	font-size: 1.1em;
+	
+}
+
+fieldset{
+	border: 5px solid white;
+	padding: 2%;
+	background: lightgray;
+}
+
+input[type=text]{
+	height: 30px;
+	width: 50%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+label{
+	color: #333;
+}
+
+#rodape{
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	color: #fff;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+}
+.menu a{
+	color: #333;
+	line-height:40px;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 20px;
+}
