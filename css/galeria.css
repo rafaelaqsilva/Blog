@@ -1,16 +1,17 @@
-.gallery {
+.galeria {
   display: flex;  
   flex-wrap: wrap;
   margin: 1em 0;
   padding: 1em;
 }
 .item {
-  flex: 1 0 15em;
+  flex: 1 0 20em;
   margin: 1em;
-  min-width: 8em;
-  min-height: 8em;
+  min-width: 10em;
+  min-height: 10em;
 }
 img {
   display: block;
   width: 100%;
 }
+
